@@ -1,0 +1,27 @@
+{
+  "name": "@reactivity/stores",
+  "description": "Simple TypeScript-first state management with reactive stores.",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "type": "module",
+  "author": "Dev-Siri",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stores",
+    "state-management",
+    "reactivity",
+    "no-framework"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
