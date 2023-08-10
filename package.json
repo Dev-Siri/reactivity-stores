@@ -1,5 +1,5 @@
 {
-  "name": "@reactivity/stores",
+  "name": "reactive-stores",
   "description": "Simple TypeScript-first state management with reactive stores.",
   "version": "1.0.0",
   "main": "build/index.js",
