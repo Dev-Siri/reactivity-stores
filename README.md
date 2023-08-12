@@ -16,8 +16,7 @@ Import the library and start using it to manage your application's state. Here's
 
 ```ts
 // Type modules for end-to-end type safety
-import Store, { type State } from "reactive-stores";
-import mergeStores from "reactive-stores/utils";
+import Store, { mergeStores, type State } from "reactive-stores";
 
 // Create stores
 const counterStore = new Store("counter-store", { count: 0 });
